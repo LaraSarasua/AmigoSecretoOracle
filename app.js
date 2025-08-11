@@ -38,5 +38,5 @@ function sortearAmigo() {
     let amigoSorteado = Amigos[Random];
 
     let resultado = document.getElementById("resultado");
-    resultado.innerHTML = <li>'El amigo elegido es: ${amigoSorteado}</li> //No me dejaba usar + asi que utilice el $ 
+    resultado.innerHTML = `<li>El amigo elegido es: ${amigoSorteado} </li>`//No me dejaba usar + asi que utilice el $ 
 }
